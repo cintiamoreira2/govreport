@@ -87,6 +87,6 @@ Este projeto simula o ambiente e responsabilidades de áreas de Governança de E
 
 ## 🙋‍♀️ Autor(a)
 
-**[Seu Nome Aqui]**  
-📧 seuemail@exemplo.com  
-🔗 [linkedin.com/in/seunome](https://linkedin.com/in/seunome)
+**Cintia Rodrigues Moreira**  
+📧 Cintia1350@gmail.com 
+🔗 https://www.linkedin.com/in/cintia-rodrigues-moreira/
