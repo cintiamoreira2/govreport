@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: ../Dockerfile.backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - uploads-data:/app/wwwroot/uploads
+    networks:
+      - govnet
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: ../Dockerfile.frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    networks:
+      - govnet
+
+volumes:
+  uploads-data:
+
+networks:
+  govnet:
